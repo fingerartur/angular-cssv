@@ -1,0 +1,13 @@
+img {
+  display: inline;
+  width: 20px;
+}
+.settings {
+  font-style: italic;
+  font-size: 9px;
+}
+.container {
+  float: right;
+  border: 1px grey solid;
+  border-radius: 5px;
+}

@@ -1,0 +1,12 @@
+nav li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.home {
+  border: 1px grey solid;
+  border-radius: 5px;
+  padding: 0 1em;
+  display: inline-block;
+  cursor: pointer;
+}

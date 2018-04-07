@@ -1,0 +1,9 @@
+div {
+  box-shadow: 3px 5px 25px #888888;
+  padding: 3em;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  width: 500px;
+  border: 4px red solid;
+  border-radius: 30px;
+}

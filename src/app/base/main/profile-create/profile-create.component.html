@@ -1,0 +1,14 @@
+<div>
+    <h1>Create profile</h1>
+    <span>Name: {{ name }}</span>
+</div>
+<div>
+  Name: <input (keyup)="setTemporaryName($event)"/><br>
+  Start date: <input type=date/><br>
+  <button (click)="saveName()">save</button><button>cancel</button><br>
+</div>
+<div>
+  <form>
+    Group name: <input/>
+  </form>
+</div>

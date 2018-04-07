@@ -1,0 +1,8 @@
+.id {
+  margin-right: 3em;
+}
+div {
+  border: 1px grey solid;
+  border-radius: 5px;
+  padding: 4px;
+}

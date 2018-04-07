@@ -1,0 +1,22 @@
+<div (click)="goHome()" class="home" title="refresh, go to login page">
+  Tool
+</div>
+<br>
+
+<nav>
+  <ul>
+    <button (click)="gotoProfileCreate()">Create Profile</button>
+    <button (click)="gotoProfileExport()">Export Profile</button>
+    <button disabled>File</button>
+    <button disabled>Folder</button>
+    <button disabled>Profile</button>
+    <button disabled>Action</button>
+    <button disabled>Profile item</button>
+    <button disabled>Rules</button>
+    <button disabled>Tools</button>
+    <button disabled>Administration</button>
+    <button disabled>Help</button>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>

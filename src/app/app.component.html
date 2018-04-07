@@ -1,0 +1,18 @@
+<app-login *ngIf="!loggedIn" (login)="handleLogin($event)"></app-login>
+<app-main *ngIf="loggedIn" [routes]="routes"></app-main>
+
+
+
+
+
+<!-- <div *ngIf="loading">Nahravam routy....</div>
+<div *ngIf="!routeLoaded && !loading">
+  <button (click)="setAdminRouter()">Base reseni</button>
+  <button (click)="setCustomAdminRouter()">Custom reseni</button>
+</div>
+<div *ngIf="routeLoaded">
+  <button routerLink="/shop">Shop</button>
+  <button routerLink="/stock">Stock</button>
+  <button routerLink="/admin">Admin</button>
+  <button routerLink="">Home</button>
+</div> -->
